@@ -51,9 +51,17 @@ footer p {
     font-size: 14px;
 }
 @media screen and (max-width: 768px) {
-    /* CSS стили для устройств с шириной экрана до 768px */
+
 }
 head {
     width: 1600px;
     height: 720px;
   }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .container {
+    width: 90%; /* Занимает 90% ширины родительского элемента */
+  }
+    
