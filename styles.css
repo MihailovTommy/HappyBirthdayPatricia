@@ -50,3 +50,23 @@ footer p {
     color: #fff;
     font-size: 14px;
 }
+@media screen and (max-width: 768px) {
+    /* CSS стили для устройств с шириной экрана до 768px */
+}
+#invisible-link {
+    position: absolute;
+    left: -9999px; /* Помещаем ссылку за пределы видимой области */
+}
+
+#text-container {
+    cursor: pointer; /* Делаем курсор видимым для пользователя */
+    /* Добавьте здесь любые стили для вашего текста */
+}
+#invisible-link {
+    color: transparent; /* Делаем цвет текста прозрачным */
+    text-decoration: none; /* Убираем подчеркивание */
+    cursor: pointer; /* Делаем курсор видимым для пользователя */
+    background-color: transparent; /* Делаем фон ссылки прозрачным */
+    border: none; /* Убираем границу */
+    outline: none; /* Убираем обводку */
+}
