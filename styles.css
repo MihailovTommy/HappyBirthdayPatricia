@@ -53,3 +53,7 @@ footer p {
 @media screen and (max-width: 768px) {
     /* CSS стили для устройств с шириной экрана до 768px */
 }
+head {
+    width: 1600px;
+    height: 720px;
+  }
